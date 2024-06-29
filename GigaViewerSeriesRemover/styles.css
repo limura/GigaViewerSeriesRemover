@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    padding: 10px;
+}
+  
+h1 {
+    font-size: 18px;
+}
+  
+#seriesList {
+    max-height: 200px;
+    overflow-y: auto;
+}
+  
+.series-item {
+    display: flex;
+    align-items: center;
+}
+  
+.series-item input {
+    margin-right: 10px;
+}
+  
+button {
+    width: 100%;
+}
+  
+#status {
+    margin-top: 10px;
+    color: red;
+}
+  
