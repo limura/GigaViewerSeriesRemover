@@ -22,7 +22,7 @@
       let historyManager = localStorage.getItem('history_manager');
       if (historyManager) {
         let historyManagerObj = JSON.parse(historyManager);
-        historyManagerObj.forEach(item => {
+        historyManagerObj.reverse().forEach(item => {
           let seriesItem = document.createElement('div');
           seriesItem.className = 'series-item';
   
